@@ -16,3 +16,4 @@
 3. Откройте `http://localhost:3000` в браузере.
 
 ### Деплой
+	https://trello-clone-practice.vercel.app
