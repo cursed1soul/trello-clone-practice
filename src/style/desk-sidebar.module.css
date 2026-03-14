@@ -1,0 +1,29 @@
+.desk_sidebar {
+    min-height: 50px;
+    width: 100%;
+    background-color: #0079bf;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+    color:white;
+}
+
+.typeDesk {
+    display: flex;
+    flex-direction: row;
+    gap:10px;
+    align-items: center;
+}
+
+@media (max-width:730px) {
+    .desk_sidebar {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap:20px;
+        padding: 10px;
+    }
+}
